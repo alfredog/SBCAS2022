@@ -43,7 +43,7 @@ Conversão dos resultados da priorização de genes para atribuição de pesos p
 ### 5. Geração de script para rodar o nCop no notebook e no Cluster.
 
 Automatização da geração de scripts para rodar as simulações no notebook e também no cluster.
-- Este processo apenas automatiza a criação de escripts, para não ter que gerar um por um manualmente, uma vez que foram necessários muitos scripts.
+- Este processo apenas automatiza a criação de scripts, para não ter que gerar um por um manualmente, uma vez que foram necessários muitos scripts.
 
 - https://github.com/alfredog/SBCAS2022/blob/main/5_generate_script_nCop_execution.ipynb
 
