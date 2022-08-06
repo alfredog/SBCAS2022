@@ -5,7 +5,7 @@
 ### 1. Limpeza de todos os MAFs extraídos do cBioPortal.
 [MAFcBioPortal -> MAFClean]
 
-- 'https://github.com/alfredog/SBCAS2022/blob/main/1_convert_mafcBioPortal_mafClean.ipynb'
+- https://github.com/alfredog/SBCAS2022/blob/main/1_convert_mafcBioPortal_mafClean.ipynb
 
 - Pega todos os MAF’s da pasta '/content/drive/MyDrive/Colab Notebooks/mafs_cBioPortal/Original/'
 - Faz a limpeza em todos e gera todos os MAFs limpos na pasta '/content/drive/MyDrive/Colab Notebooks/mafs_cBioPortal/Clean/'.
