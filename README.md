@@ -56,7 +56,6 @@ O objetivo desta avaliação é identificar se a metodologia proposta permitiu i
 
 - Precisão (Cosmic)
 - Intogen
-- CancerMine (avaliações usando dados do Cancer Mine não foram incluidas no trabalho final).
 
 
 
