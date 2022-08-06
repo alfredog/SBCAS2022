@@ -2,8 +2,7 @@
 
 ## Scripts do trabalho desenvolvido e apresentado em formato de artigo completo no 22° Congresso Brasileiro de Computação Aplicada à Saúde (SBCAS 2022)
 
-### 1. Limpeza de todos os MAFs extraídos do cBioPortal.
-[MAFcBioPortal -> MAFClean]
+### 1. Limpeza de todos os MAFs (dados de mutação de pacientes) extraídos do cBioPortal.
 
 - https://github.com/alfredog/SBCAS2022/blob/main/1_convert_mafcBioPortal_mafClean.ipynb
 
@@ -11,8 +10,7 @@
 - Faz a limpeza em todos e gera todos os MAFs limpos na pasta '/content/drive/MyDrive/Colab Notebooks/mafs_cBioPortal/Clean/'.
 
 
-### 2. Conversão de MAFs limpos (MAFClean) para MAFs para o nCop.
-[MAFClean -> MAFnCop]
+### 2. Conversão de MAFs limpos para MAFs em formato esperado pelo nCop.
 
 - https://github.com/alfredog/SBCAS2022/blob/main/2_convert_mafClean_nCop.ipynb
 
@@ -21,8 +19,9 @@
 
 
 ### 3. Geração das listas de genes para o Endeavour.
-[MAFnCop -> MAFGenesList]
-[Networks -> NetGenesList]
+
+Lista de genes extraídos dos dados de mutação (MAF).
+Lista de genes extraídos da rede (HPRD). 
 
 - https://github.com/alfredog/SBCAS2022/blob/main/3_gerenerate_endeavour_gene_lists.ipynb
 
@@ -33,7 +32,8 @@
 
 
 ### 4. Conversão dos resultados do Endeavour para o weights do nCop.
-[EndeavourResults -> weights]
+
+Conversão dos resultados da priorização de genes para atribuição de pesos para a rede usada no nCop.
 
 - https://github.com/alfredog/SBCAS2022/blob/main/4_convert_EndeavourResults_nCop.ipynb
 
@@ -42,9 +42,15 @@
 
 ### 5. Geração de script para rodar o nCop no notebook e no Cluster.
 
+Automatização da geração de scripts para rodar as simulações no notebook e também no cluster.
+- Este processo apenas automatiza a criação de escripts, para não ter que gerar um por um manualmente, uma vez que foram necessários muitos scripts.
+
 - https://github.com/alfredog/SBCAS2022/blob/main/5_generate_script_nCop_execution.ipynb
 
 ### 6. Script de avaliação 
+
+Script responsável por realizar o cálculo de precisão com dados do COSMIC, como também com os dados do Intogen.
+O objetivo desta avaliação é identificar se a metodologia proposta permitiu identificar um número maior de genes causadores de Câncer reconhecidos pela literatura.
 
 - https://github.com/alfredog/SBCAS2022/blob/main/Evaluation_BSB.ipynb
 
