@@ -1,6 +1,6 @@
-# Investigation of the performance of driver mutation identification methods using biological networks and enriched biological networks
+# Investigation of the use of functional interaction networks and enriched functional interaction networks in methods for identifying significant mutations applied to cancer research
 
-## Scripts do trabalho desenvolvido e apresentado em formato de artigo completo no 22° Congresso Brasileiro de Computação Aplicada à Saúde (SBCAS 2022)
+## Scripts utilizados na Tese de Doutorado, defendida no dia 27/06/2025
 
 ### 1. Limpeza de todos os MAFs (dados de mutação de pacientes) extraídos do cBioPortal.
 
@@ -56,6 +56,18 @@ O objetivo desta avaliação é identificar se a metodologia proposta permitiu i
 
 - Precisão (Cosmic)
 - Intogen
+
+### 7. Análise e investigação dos genes encontrados nas etapas anteriores, em um espaço de embeddings, após projeção da rede para um espaço de embeddings (espaço vetorial)
+
+Scripts utilizados para:
+- Projetar a rede em um espaço de embeddings.
+- Identificar os genes encontrados no MAF
+- Identificar os genes drivers reconhecidos pela literatura
+- Identificar os genes drivers e também presentes no MAF
+- Identificar clusters com alta concentração de genes drivers
+- Identificar quais os genes encontrados na tese (nas etapas anteriores a esta etapa 7) estão presente nos clusters com alta concentração de genes drivers.
+- Calcular a correlação de Pearson dos genes encontrados na tese com os genes drivers do cluster.
+- Identificar as top 20 maiores correlações dos genes encontrados na tese com os genes drivers do cluster.
 
 
 
