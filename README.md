@@ -59,6 +59,8 @@ O objetivo desta avaliação é identificar se a metodologia proposta permitiu i
 
 ### 7. Análise e investigação dos genes encontrados nas etapas anteriores, em um espaço de embeddings, após projeção da rede para um espaço de embeddings (espaço vetorial)
 
+- Os scripts desta etapa estão na pasta /GNN
+
 Scripts utilizados para:
 - Projetar a rede em um espaço de embeddings.
 - Identificar os genes encontrados no MAF
